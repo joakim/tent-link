@@ -28,8 +28,8 @@ Two posts would have to be created in these examples, first the `link` and then 
 
 #### Thoughts
 
-What would be best – a minimal, generic `link` post ref'd by other posts, such as `bookmark`, `share`, `status`, `whatever`? Or specific post types with a `url` field for each case?
+What would be best – a minimal, generic `link` post ref'd by other posts, such as `bookmark`, `share`, `status`, `whatever`? Or specific post types for each use case, with a `url` field?
 
 - What's the performance and storage cost of using refs a lot?
-- Would a side effect of a generic `link` type be that if you subscribe to someone's `link`s, you'd get anything from `bookmark`s to `share`s to _whatever_ is using `link`, without the context?
-
+- Would a side effect of a generic `link` type be that if you subscribe to someone's `link` posts, you'd get anything from `bookmark` posts to `share` posts to _whatever_ is referencing a `link`, without the context?
+- (brainstorming) Could web links even be part of the [post schema](https://tent.io/docs/posts#post-schema), on the same level as refs, mentions and attachments?
