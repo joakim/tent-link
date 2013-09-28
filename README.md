@@ -1,6 +1,8 @@
+**This is very much a work in progress, and only a suggestion.**
+
 # Link
 
-A simple Tent post type for sharing/referencing a URL, typically to a web page. **(This is very much a WIP, and only a suggestion.)**
+A simple Tent post type for sharing/referencing a URL, typically to a web page.
 
 Posts of other types may reference `link` posts for use in a particular context.
 
