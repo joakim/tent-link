@@ -59,6 +59,10 @@ A shared link.
 
 What would be best – a minimal, generic `link` post ref'd by other posts, such as `bookmark`, `share`, `status`, `whatever`? Or specific post types for each use case, with a `url` field?
 
+I think a "shared link" should be able to stand on its own, and then optionally be referenced by a `status` post if it's also shared on Tent's microblogging network. The suggested `share` type will allow apps to create/retrieve shared links with a message.
+
+Some questions:
+
 - What's the performance and storage cost of using refs a lot?
 - Would a side effect of a generic `link` type be that if you subscribe to someone's `link` posts, you'd get anything from `bookmark` links to `share` links to links referenced by `anything`, without the context?
 - (brainstorming) Could web links even be part of the [post schema](https://tent.io/docs/posts#post-schema), on the same level as refs, mentions and attachments?
