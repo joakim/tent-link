@@ -1,4 +1,4 @@
-**This is very much a work in progress, and only a suggestion.**
+**This is very much a work in progress, and only a suggestion. See [Thoughts](#thoughts).**
 
 # Link
 
