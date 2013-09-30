@@ -11,8 +11,8 @@ Posts of other types may reference `link` posts for use in the context of that p
 Some examples:
 
 - A [share](https://github.com/joakim/tent-share) post could have only a `message` field and reference the `link` post that has the URL.
-- A `bookmark` post could reference a `link` and provide metadata in its own fields.
-- A [status](https://tent.io/docs/post-types#status) post could reference a `link` for sharing in a conversation. This would be an alternative to adding the URL inline in the `text` field of the `status` post.
+- A `bookmark` post could reference a `link` post and provide metadata in its own fields.
+- A [status](https://tent.io/docs/post-types#status) post could reference a `link` post for sharing in a conversation. This would be an alternative to adding the URL inline in the `text` field of the `status` post.
 
 In these examples, you'd have to create two posts; first the `link` itself and then the parent post (`share`/`bookmark`/`status`). Tent servers will return any referenced posts as part of the return data for a queried post, so the `link` post would be included when a `share` post is retrieved.
 
