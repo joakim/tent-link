@@ -26,7 +26,6 @@ In these examples, you'd have to create two posts; first the `link` itself and t
 
 ```json
 {
-  //...
   "content": {
     "url": "http://www.theatlantic.com/technology/archive/2012/10/dark-social-we-have-the-whole-history-of-the-web-wrong/263523/",
   }
