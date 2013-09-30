@@ -38,11 +38,10 @@ What would be best – a minimal, generic `link` post ref'd by other posts, such
 
 Having the link as its own post opens up for metadata about that link to be stored alongside it. It also allows for reuse of the link, although I'm not sure there's any value in that.
 
-Make sure to also read my suggestion for a [Share](https://github.com/joakim/tent-share) post type.
-
 Questions:
 
 - What's the performance and storage cost of using refs a lot?
 - Wouldn't a side effect of a generic `link` type be that if you subscribe to someone's `link` posts, you'd get anything from `bookmark` links to `share` links to links referenced by `anything`, without the context? Maybe this really isn't an issue, and people would only follow `share`, `bookmark` directly.
 - (crazy brainstorming impulse) Could web links even be part of the [post schema](https://tent.io/docs/posts#post-schema), on the same level as refs, mentions and attachments?
 
+Make sure to also see my suggestion for a [Share](https://github.com/joakim/tent-share) post type.
