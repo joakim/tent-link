@@ -1,6 +1,6 @@
 **This is a suggestion for a new post type, it does not yet exist. It's a WIP. See [Thoughts](#thoughts) for more.**
 
-See also my suggestion for a [Share](https://github.com/joakim/tent-share) post type.
+See also my suggestion for the related [Share](https://github.com/joakim/tent-share) post type.
 
 # Link
 
