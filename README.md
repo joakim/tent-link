@@ -41,7 +41,7 @@ Having the link as its own post opens up for metadata about that link to be stor
 Questions:
 
 - What's the performance and storage cost of using refs a lot?
-- Wouldn't a side effect of a generic `link` type be that if you subscribe to someone's `link` posts, you'd get anything from `bookmark` links to `share` links to links referenced by `anything`, without the context? Maybe this really isn't an issue, and people would only subscribe to `share` and `bookmark` directly.
+- Wouldn't a side effect of a generic `link` type be that if you subscribed to someone's `link` posts, you'd get anything from `bookmark` links to `share` links to links referenced by `anything`, without the context? Maybe this really isn't an issue, and people would only subscribe to `share` and `bookmark` directly.
 - (crazy brainstorming impulse) Could web links even be part of the [post schema](https://tent.io/docs/posts#post-schema), on the same level as refs, mentions and attachments?
 
 Make sure to also see my suggestion for a [Share](https://github.com/joakim/tent-share) post type.
