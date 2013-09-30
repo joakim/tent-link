@@ -38,7 +38,7 @@ What would be best – a minimal, generic `link` post ref'd by other posts, such
 
 Having the link as its own post opens up for metadata about that link to be stored alongside it. It also allows for reuse of the link, although I'm not sure there's any value in that.
 
-See also my suggestion for a [Share](https://github.com/joakim/tent-share) post type.
+Make sure to also read my suggestion for a [Share](https://github.com/joakim/tent-share) post type.
 
 Questions:
 
